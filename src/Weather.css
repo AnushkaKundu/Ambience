@@ -1,0 +1,39 @@
+.weather {
+    background-color: #22272e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.box {
+    position: relative;
+    margin: 3rem 0 3rem;
+    padding: 4rem;
+    font-size: 1.6rem;
+    width: 60%;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+    z-index: 10;
+    color: whitesmoke;
+}
+.card1 {
+    box-sizing: border-box;
+    padding: 2em;
+    font-family: Ubuntu;
+    border-radius: 25px;
+    color: white;
+    /* box-shadow: 5px 5px 10px #ccc; */
+    float: left;
+    margin-right: 1em;
+    opacity: 0.6;
+}
+.card1.purple {
+    background: linear-gradient(150deg, #fa7099a7, #784ba8e9 50%, #2b86c5 75%);
+}

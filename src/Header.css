@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+* {
+  box-sizing:border-box;
+}
+#ambience {
+  font-size: 5rem;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-stretch: expanded;
+  text-align: center;
+}
+body {
+  background-color: #22272e;
+}
+header {
+  background-image: linear-gradient(0deg, #784ba8e9  0%, #090979 80%);
+  /* background-color: #090979; */
+}
+navbar {
+  color: rgba(173,185,196,255);
+  padding: 1rem;
+  /* margin: 1rem; */
+  /* background-color: rgba(45,51,59,255); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 0 2rem 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem;
+}
+img {
+    width: 100%;
+}
+@media (max-width: 30rem) {
+    navbar a {
+      margin: 0 1rem 0;
+      font-size: 1rem;
+    }
+}
